@@ -1,4 +1,4 @@
-FROM il/todobackend-base:latest
+FROM libroli1988/restapi-backend-base-image:latest
 MAINTAINER Igor Loboda
 
 # Install dev/build dependencies

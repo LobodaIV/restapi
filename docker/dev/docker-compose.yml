@@ -21,7 +21,7 @@ builder:
   command: ["pip", "wheel", "--no-index", "-f /build", "."]
 
 agent:
-  image: il/ansible
+  image: libroli1988/restapi-docker-ansible-agent
   links:
     - db
   environment:

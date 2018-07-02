@@ -6,3 +6,7 @@ venv
 
 #Ignore SQLite database files
 *.sqlite3
+
+#Ignore tests
+target
+reports

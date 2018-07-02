@@ -19,7 +19,7 @@ app:
     - "--die-on-term"
 
 test:
-  image: il/todobackend-specs
+  image: libroli1988/restapi-specs
   links:
     - nginx #the test can communicate with the nginx service
   environment:
@@ -58,7 +58,7 @@ db:
     MYSQL_PASSWORD: password
     MYSQL_ROOT_PASSWORD: password
 agent:
-  image: il/ansible
+  image: libroli1988/restapi-docker-ansible-agent
   links:
     - db
   environment:
